@@ -1,0 +1,96 @@
+/**
+ * Rotate Tool Player Styles
+ *
+ * Version: 1.1.4
+ * Author Matus Laco, http://www.yofla.com/3d-rotate/
+ */
+
+
+div.rotate-tool-instance{ background-color: white; }
+
+
+div.rotate-tool-button
+{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 44px 22px;
+}
+
+div.rotate-tool-button:hover
+{
+    background-position: -22px;
+}
+
+div.rotate-tool-button-play{
+    left: 5px;
+    bottom: 5px;
+    background-image: url(button-play.png);
+}
+
+div.rotate-tool-button-left{
+    left: 32px;
+    bottom: 5px;
+    background-image: url(button-left.png);
+}
+
+div.rotate-tool-button-right{
+    left: 59px;
+    bottom: 5px;
+    background-image: url(button-right.png);
+}
+
+div.rotate-tool-button-up{
+    left: 86px;
+    bottom: 5px;
+    background-image: url(button-up.png);
+}
+
+div.rotate-tool-button-down{
+    left: 113px;
+    bottom: 5px;
+    background-image: url(button-down.png);
+}
+
+div.rotate-tool-button-fullscreen{
+    left: 5px;
+    bottom: 32px;
+    background-image: url(button-fullscreen.png);
+}
+
+div.rotate-tool-zoomslider{
+    width: 110px;
+    height: 22px;
+    right: 10px;
+    bottom: 5px;
+    background-image: url(zoomslider-bar.png);
+    background-repeat: no-repeat;
+}
+
+div.rotate-tool-zoomslider-handle{
+    width: 13px;
+    height: 22px;
+    left: 0px;
+    bottom: 0px;
+    background-image: url(zoomslider-handle.png);
+    background-repeat: no-repeat;
+    background-size: 26px 22px;
+}
+
+div.rotate-tool-zoomslider-handle:hover{
+    background-position: -13px;
+}
+
+
+div.rotate-tool-hotspot-default{
+    width: 22px;
+    height: 22px;
+    border-radius: 14px;
+    border: 2px solid white;
+    opacity: 0.75;
+    filter: Alpha(Opacity=75);
+    background-color: deepskyblue;
+}
+
+
